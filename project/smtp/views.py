@@ -6,9 +6,9 @@ from django.http import HttpResponse
 def send_email(request):
     send_mail(
         'Subject here',
-        'lol 政寬 窩 真佩服我自己XDDD 這是用 AWS SES 弄的！.',
-        'eli@jielite.tw',
-        ['ita3051@gmail.com', 'csiekuan@gmail.com'],
+        'Mailing Message',
+        'from@domain',
+        ['to@mail.com'],
         fail_silently=False,
     )    
 
