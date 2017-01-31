@@ -2,6 +2,11 @@
 
 hackmd: https://hackmd.io/s/HJHPwzADx
 
+## Introduction
+我們在查詢密碼的時候，通常服務商會寄給我們一封信件，夾帶著更改密碼的連結。
+這封信件是怎麼寄出來的呢？通常會需要 SMTP 服務。
+在 AWS 上就是 SES。
+
 ## Dependency Package
 在 Django 要使用 AWS SES 的服務我查到有以下幾種方法
 - using [django-ses](https://github.com/django-ses/django-ses)
